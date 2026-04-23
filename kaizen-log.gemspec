@@ -3,7 +3,7 @@
 require_relative 'lib/kaizen/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'kaizen-cli'
+  spec.name          = 'kaizen-log'
   spec.version       = Kaizen::VERSION
   spec.authors       = ['Sorted.']
   spec.email         = []
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 3.0.0'
 
-  spec.files         = Dir.glob('{bin,lib}/**/*') + %w[README.md LICENSE kaizen-cli.gemspec]
+  spec.files         = Dir.glob('{bin,lib}/**/*') + %w[README.md LICENSE kaizen-log.gemspec]
   spec.bindir        = 'bin'
   spec.executables   = ['kaizen']
   spec.require_paths = ['lib']

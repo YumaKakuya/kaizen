@@ -51,7 +51,7 @@ No project management. No categories. No priorities. Just a timestamped record o
 ## Installation
 
 ```bash
-gem install kaizen-cli
+gem install kaizen-log
 ```
 
 ### Requirements
@@ -274,7 +274,7 @@ ruby -Ilib bin/kaizen done "test improvement"
 ### Building the Gem
 
 ```bash
-gem build kaizen-cli.gemspec
+gem build kaizen-log.gemspec
 ```
 
 ---
